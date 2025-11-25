@@ -1,0 +1,5 @@
+@media (max-width: 400px) {
+  .gallery-items {
+    grid-template-rows: repeat(5, 180px);
+  }
+}

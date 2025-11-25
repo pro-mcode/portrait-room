@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,IAAI,CAAJ,6BAAI;AAEJ,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,OAAO,CAAC;IACN,KAAK,EAAE,GAAG;IACV,OAAO,EAAE,CAAC;GACX",
+    "sources": [
+        "../src/scss/breakpoints/desktop.scss"
+    ],
+    "names": [],
+    "file": "desktop.css"
+}
