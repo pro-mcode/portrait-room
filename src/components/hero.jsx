@@ -2,7 +2,7 @@ import Navbar from "./navbar";
 
 export default function Hero() {
   return (
-    <div className="hero relative flex flex-col justify-center items-center h-[70vh] max-h-140 md:h-[85vh] 2xl:h-320">
+    <div className="hero relative flex flex-col justify-center items-center h-110 md:h-[85vh] 2xl:h-320">
       <Navbar />
       <img
         src="/assets/images/AD-Mphgmain.jpg"

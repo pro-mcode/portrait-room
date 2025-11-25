@@ -189,7 +189,7 @@ export default function Service() {
                         </span>
 
                         <h3
-                          className={`text-lg text-black font-semibold transition-colors duration-300 sm:text-2xl ${
+                          className={`text-[1.3rem] text-black font-semibold transition-colors duration-300 sm:text-2xl ${
                             isActive ? "" : "opacity-70"
                           }`}
                         >
@@ -206,7 +206,7 @@ export default function Service() {
                           <img
                             src={serviceContents[activeIndex].img}
                             alt={serviceContents[activeIndex].title}
-                            className="w-full h-auto max-h-100 shadow-md md:hidden mt-4"
+                            className="w-full h-auto max-h-60 shadow-md md:hidden mt-4"
                           />
                         </>
                       )}
