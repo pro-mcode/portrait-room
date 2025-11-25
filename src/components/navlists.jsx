@@ -1,8 +1,1 @@
-export const navLists = [
-  "home",
-  "service",
-  "about",
-  "gallery",
-  "contact",
-  "blog",
-];
+export const navLists = ["home", "service", "about", "gallery", "blog"];

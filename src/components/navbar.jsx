@@ -9,7 +9,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="navbar layout absolute top-4 z-20 w-full flex justify-between items-center">
+    <nav className="navbar layout absolute top-10 z-20 w-full flex justify-between items-center">
       <div className="logo text-2xl font-medium z-20 font-serif">
         <a href="index.html">The Portrait Room</a>
       </div>

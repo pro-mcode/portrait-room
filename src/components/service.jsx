@@ -155,7 +155,7 @@ export default function Service() {
         </p>
 
         {/* === TWO COLUMN LAYOUT === */}
-        <div className="max-w-150 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 items-start md:min-w-full">
+        <div className="max-w-120 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 items-start md:min-w-full">
           {/* LEFT SIDE – LIST */}
           <div className="space-y-6">
             {serviceContents.map((service, index) => {
@@ -171,7 +171,7 @@ export default function Service() {
                     {/* Icon */}
                     <span
                       className={`text-4xl hidden text-black transition-colors duration-300 md:block ${
-                        isActive ? "" : "opacity-70"
+                        isActive ? "" : "opacity-50"
                       }`}
                     >
                       {service.icon}
@@ -206,7 +206,7 @@ export default function Service() {
                           <img
                             src={serviceContents[activeIndex].img}
                             alt={serviceContents[activeIndex].title}
-                            className="w-full h-auto max-h-60 shadow-md md:hidden mt-4"
+                            className="w-full h-auto max-h-70 shadow-md md:hidden mt-4"
                           />
                         </>
                       )}
