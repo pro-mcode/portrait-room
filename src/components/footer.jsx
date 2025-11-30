@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="layout mx-auto ">
         <div className="flex flex-col gap-6 justify-between md:flex-row">
           <div className="mb-10">
-            <h3 className="logo text-2xl">The Portrait Room</h3>
-            <p>copyright©theportraitroom.com</p>
+            <h3 className="logo text-2xl">Portrait Room</h3>
+            <p>copyright©portraitroom.com</p>
           </div>
           {footerLists.map((section, i) => (
             <div key={i} className="service-lists mb-10">

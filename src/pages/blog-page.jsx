@@ -7,14 +7,17 @@ import Showcase from "../components/showcase";
 import Blog from "../components/blog";
 import Newsletter from "../components/newsletter";
 import Footer from "../components/footer";
-import GalleryOverview from "../components/gallery-overview";
-import Header from "../components/header";
-export default function GalleryPage() {
+export default function BlogPage() {
   return (
     <div>
       <title>Portrait Room</title>
-      <Header />
-      <GalleryOverview />
+      <Hero />
+      <Service />
+      <About />
+      <Showcase />
+      <Packages />
+      <Review />
+      <Blog />
       <Newsletter />
       <Footer />
     </div>

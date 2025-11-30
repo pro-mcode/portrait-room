@@ -1,3 +1,57 @@
+// import { useState } from "react";
+// import { navLists } from "./navlists";
+
+// export default function Navbar() {
+//   const [navToggle, setNavToggle] = useState(false);
+//   const handleClick = () => {
+//     setNavToggle(true);
+//   };
+//   return (
+//     <nav className="navbar layout absolute top-4 z-20 w-full flex justify-between items-center">
+//       <div className="logo text-2xl font-medium">
+//         <a href="index.html">The Portrait Room</a>
+//       </div>
+//       <div className="links hidden md:block">
+//         <ul className="nav-links flex justify-between">
+//           {navLists.map((list, index) => (
+//             <li key={index}>
+//               <a
+//                 href="index.html"
+//                 className="active text-lg font-medium text-primary hover:opacity-70  capitalize md:ml-6 transition duration-300"
+//               >
+//                 {list}
+//               </a>
+//             </li>
+//           ))}
+//         </ul>
+//       </div>
+
+//       {navToggle && (
+//         <div
+//           onClick={handleClick}
+//           className={`hamburger md:hidden z-20 ${
+//             !navToggle ? " " : "rotate-90"
+//           }`}
+//         >
+//           <div
+//             className={`hamburger-top ${
+//               !navToggle ? " " : "rotate-45 translate-y-1.5 translate-x-1.5"
+//             }`}
+//           ></div>
+//           <div
+//             className={`hamburger-middle ${!navToggle ? " " : "hidden"}`}
+//           ></div>
+//           <div
+//             className={`hamburger-bottom ${
+//               !navToggle ? " " : "-rotate-45 translate-y-1.5 -translate-x-1.5"
+//             }`}
+//           ></div>
+//         </div>
+//       )}
+//     </nav>
+//   );
+// }
+
 import { useState } from "react";
 import { navLists } from "./navlists";
 
@@ -9,8 +63,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="navbar layout absolute top-10 z-20 w-full flex justify-between items-center">
-      <div className="logo text-2xl font-medium z-20 font-serif">
+    <nav className="navbar layout absolute top-4 z-20 w-full flex justify-between items-center">
+      <div className="logo text-2xl font-medium z-20">
         <a href="index.html">The Portrait Room</a>
       </div>
 
@@ -19,7 +73,7 @@ export default function Navbar() {
           {navLists.map((list, index) => (
             <li key={index}>
               <a
-                href=""
+                href="index.html"
                 className="active text-lg font-medium text-primary hover:opacity-70 capitalize md:ml-6 transition duration-300"
               >
                 {list}
